@@ -35,7 +35,7 @@ const Footer = () => {
             position="right"
           />
         </a>
-        <a href="https://wa.me/+255734705036" target="_blank" rel="noopener noreferrer">
+        <a className="mt-5" href="https://wa.me/+255734705036" target="_blank" rel="noopener noreferrer">
           <MagicButton
             title="Whatsapp"
             icon={<FaWhatsapp />}

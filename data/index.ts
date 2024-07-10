@@ -59,7 +59,7 @@ export const gridItems = [
   // },
   {
     id: 6,
-    title: "Backend Developer let's work together?",
+    title: "if your a Backend Developer let's work together?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1 lg:min-h-[60vh]",
     imgClassName: "",
