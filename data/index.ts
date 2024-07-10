@@ -59,12 +59,12 @@ export const gridItems = [
   // },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Backend Developer let's work together?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1 lg:min-h-[60vh]",
     imgClassName: "",
     titleClassName: "justify-center md:max-w-full max-w-60 text-center",
-    img: "",
+    img: "/me.svg",
     spareImg: "",
   },
 ];

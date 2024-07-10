@@ -67,7 +67,7 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "hsu@jsmastery.pro";
+    const text = "justaguyeu@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
   };
@@ -106,7 +106,7 @@ export const BentoGridItem = ({
             <img
               src={spareImg}
               alt={spareImg}
-              //   width={220}
+                // width={220}
               className="object-cover object-center w-full h-full"
             />
           )}
