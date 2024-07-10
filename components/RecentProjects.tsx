@@ -8,7 +8,7 @@ import { Spotlight } from "@/components/ui/Spotlight";
 
 const RecentProjects = () => {
   return (
-    <div id="myprojects" className="py-20 dark:bg-black bg-white dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2] ">
+    <div  className="py-20 dark:bg-black bg-white dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2] ">
       
       <h1 className="heading">
         Sample{" "}
@@ -32,13 +32,13 @@ const RecentProjects = () => {
             key={item.id}
           >
             <PinContainer
-              title="JustAguy"
+              title="JustAGuy"
               href=""
             >
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
-                  style={{ backgroundColor: "#13162D" }}
+                  style={{ backgroundColor: "#FFF" }}
                 >
                   <img src="/bg.png" alt="bgimg" />
                 </div>

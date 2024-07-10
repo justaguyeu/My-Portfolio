@@ -22,7 +22,8 @@ const Approach = () => {
           <CanvasRevealEffect
             animationSpeed={5.1}
             // add these classed for the border rounded overflowing -> rounded-3xl overflow-hidden
-            containerClassName="bg-emerald-900 rounded-3xl overflow-hidden"
+            containerClassName="bg-black rounded-3xl overflow-hidden"
+            colors={[[161, 211, 252]]}
           />
         </Card>
         <Card
@@ -35,13 +36,14 @@ const Approach = () => {
           <CanvasRevealEffect
             animationSpeed={3}
             // change bg-black to bg-pink-900
-            containerClassName="bg-pink-900 rounded-3xl overflow-hidden"
+            containerClassName="bg-black rounded-3xl overflow-hidden"
             colors={[
+              [161, 211, 252]
               // change the colors of the
-              [255, 166, 158],
-              [221, 255, 247],
+              // [255, 166, 158],
+              // [221, 255, 247],
             ]}
-            dotSize={2}
+            // dotSize={2}
           />
           {/* Radial gradient for the cute fade */}
           {/* remove this one */}
@@ -56,8 +58,8 @@ const Approach = () => {
         >
           <CanvasRevealEffect
             animationSpeed={3}
-            containerClassName="bg-sky-600 rounded-3xl overflow-hidden"
-            colors={[[125, 211, 252]]}
+            containerClassName="bg-black rounded-3xl overflow-hidden"
+            colors={[[161, 211, 252]]}
           />
         </Card>
       </div>
@@ -90,8 +92,9 @@ const Card = ({
       style={{
         //   add these two
         //   you can generate the color from here https://cssgradient.io/
-        background: "rgb(4,7,29)",
-        
+        // background: "rgb(4,7,29)",
+        // backgroundColor:
+        //   "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
       }}
     >
       {/* change to h-10 w-10 , add opacity-30  */}
@@ -134,7 +137,7 @@ const Card = ({
           className="text-sm opacity-0 group-hover/canvas-card:opacity-100
          relative z-10 mt-4 group-hover/canvas-card:text-white text-center
          group-hover/canvas-card:-translate-y-2 transition duration-200"
-          style={{ color: "#E4ECFF" }}
+          style={{ color: "#FFF" }}
         >
           {des}
         </p>

@@ -22,12 +22,6 @@ const Hero = () => {
         />
         <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
       </div>
-
-      {/**
-       *  UI: grid
-       *  change bg color to bg-black-100 and reduce grid color from
-       *  0.2 to 0.03
-       */}
       <div
         className="h-screen dark:bg-black bg-white dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]
        absolute top-0 left-0 flex items-center justify-center"
@@ -57,10 +51,10 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-1xl">
-            Holla! I&apos;m Always, a passionate designer and frontend developer based in Tanzania. With a keen eye for detail and a love for creative problem-solving, I specialize in crafting beautiful and functional digital experiences. Whether it&apos;s designing pixel-perfect interfaces or coding responsive websites and applications, I thrive on turning ideas into reality. My goal is to create visually appealing designs that seamlessly integrate with robust and user-friendly frontend solutions. Let&apos;s create something amazing together!.
+            Holla! I&apos;m Always, a passionate Designer and Frontend Developer based in Tanzania. With a keen eye for detail and a love for creative problem-solving, I specialize in crafting beautiful and functional digital experiences. Whether it&apos;s designing pixel-perfect interfaces or coding responsive websites and applications, I thrive on turning ideas into reality. My goal is to create visually appealing designs that seamlessly integrate with robust and user-friendly frontend solutions. Let&apos;s create something amazing together!.
           </p>
 
-          <a href="#myprojects">
+          <a href="#about">
             <MagicButton 
               title=""
               icon={<FaArrowDownLong/>}

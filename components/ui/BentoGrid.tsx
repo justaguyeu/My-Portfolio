@@ -82,9 +82,9 @@ export const BentoGridItem = ({
       style={{
         //   add these two
         //   you can generate the color from here https://cssgradient.io/
-        background: "rgb(4,7,29)",
-        backgroundColor:
-          "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+        // background: "rgb(4,7,29)",
+        // backgroundColor:
+        //   "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
       }}
     >
       {/* add img divs */}
@@ -182,14 +182,31 @@ export const BentoGridItem = ({
                 {/* <img src="/confetti.gif" alt="confetti" /> */}
                 <Lottie options={defaultOptions} height={200} width={400} />
               </div>
-
-              <MagicButton
+              <div className="w-full h-full object-cover object-center ">
+          {img && (
+            <img
+              src={img}
+              alt={img}
+            />
+            
+          )}
+          <MagicButton
                 title={copied ? "Email is Copied!" : "Copy my email address"}
                 icon={<IoCopyOutline />}
                 position="left"
                 handleClick={handleCopy}
                 otherClasses="!bg-[#161A31]"
               />
+            
+        </div>
+
+              {/* <MagicButton
+                title={copied ? "Email is Copied!" : "Copy my email address"}
+                icon={<IoCopyOutline />}
+                position="left"
+                handleClick={handleCopy}
+                otherClasses="!bg-[#161A31]"
+              /> */}
             </div>
           )}
         </div>
