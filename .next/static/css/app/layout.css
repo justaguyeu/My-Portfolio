@@ -1166,9 +1166,6 @@ video {
 .mt-7 {
   margin-top: 1.75rem;
 }
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
 .line-clamp-1 {
   overflow: hidden;
   display: -webkit-box;
@@ -1726,10 +1723,6 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(234 179 8 / var(--tw-border-opacity));
 }
-.border-white {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
 .\!bg-\[\#161A31\] {
   --tw-bg-opacity: 1 !important;
   background-color: rgb(22 26 49 / var(--tw-bg-opacity)) !important;
@@ -1741,10 +1734,6 @@ video {
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-.bg-black-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 3 25 / var(--tw-bg-opacity));
 }
 .bg-black-200 {
   background-color: rgba(17, 25, 40, 0.75);
@@ -1763,20 +1752,9 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(8 145 178 / var(--tw-bg-opacity));
 }
-.bg-emerald-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(6 78 59 / var(--tw-bg-opacity));
-}
 .bg-pink-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(131 24 67 / var(--tw-bg-opacity));
-}
-.bg-sky-500\/\[0\.08\] {
-  background-color: rgb(14 165 233 / 0.08);
-}
-.bg-sky-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(2 132 199 / var(--tw-bg-opacity));
 }
 .bg-slate-900\/\[0\.\] {
   background-color: rgb(15 23 42 / 0.);
@@ -1792,12 +1770,12 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
+.bg-white\/\[0\.08\] {
+  background-color: rgb(255 255 255 / 0.08);
+}
 .bg-zinc-950 {
   --tw-bg-opacity: 1;
   background-color: rgb(9 9 11 / var(--tw-bg-opacity));
-}
-.bg-white\/\[0\.08\] {
-  background-color: rgb(255 255 255 / 0.08);
 }
 .bg-opacity-75 {
   --tw-bg-opacity: 0.75;
@@ -1842,9 +1820,6 @@ video {
 .via-emerald-400\/90 {
   --tw-gradient-to: rgb(52 211 153 / 0)  var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), rgb(52 211 153 / 0.9) var(--tw-gradient-via-position), var(--tw-gradient-to);
-}
-.to-cyan-500 {
-  --tw-gradient-to: #06b6d4 var(--tw-gradient-to-position);
 }
 .to-emerald-400\/0 {
   --tw-gradient-to: rgb(52 211 153 / 0) var(--tw-gradient-to-position);
