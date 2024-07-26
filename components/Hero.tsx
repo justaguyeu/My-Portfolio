@@ -51,10 +51,10 @@ const Hero = () => {
       </div>
       <style >{`
         .canvas-container {
-          // position: relative;
-          width: 1000px;
+          position: relative;
+          width:3000px;
           height: 800px; 
-          background: transparent;
+          // background: transparent;
         }
 
         canvas {
@@ -63,13 +63,13 @@ const Hero = () => {
           left: 0;
           width: 100%;
           height: 100%;
-          background: transparent;
+          // background: transparent;
         }
       `}</style>
-      <div className="flex justify-center z-10">
-        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
+      <div className="flex flex-row items-center justify-center z-10">
+        {/* <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center"> */}
       <div className="canvas-container ">
-        
+            
           <Canvas camera={{ position: [0, 0, 13], fov: 25 }} style={{ background: 'transparent' }} >
       <ambientLight intensity={Math.PI} />
       <Physics interpolate gravity={[0, -40, 0]} timeStep={1 / 60}>
@@ -84,21 +84,24 @@ const Hero = () => {
       </Environment>
       
     </Canvas>
+            
     
 </div>
-<a href="#main">
-            <MagicButton 
-              title=""
-              icon={<FaArrowDownLong/>}
-              position="left"
+          <a href="#main">
+            <MagicButton
+              title="Holla"
+              icon={<FaArrowDownLong />}
+              position="right"
             />
           </a>
-</div></div>
+
+</div>
+{/* </div> */}
 
 
        
 
-      <div className="flex justify-center relative my-20 z-10" id="main">
+      <div className="flex justify-center my-10 z-10" id="main">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
             JustAGuy
